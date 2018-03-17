@@ -1,0 +1,6 @@
+digraph graphname {
+	d -> b;
+	d -> c;
+	b -> a;
+	c -> a;
+}
