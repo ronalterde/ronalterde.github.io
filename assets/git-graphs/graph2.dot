@@ -1,3 +1,4 @@
 digraph graphname {
+	bgcolor="transparent";
 	c -> a;
 }
