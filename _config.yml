@@ -44,3 +44,9 @@ disqus:
 #   - vendor/gems/
 #   - vendor/ruby/
 permalink: /:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/default-image.png
