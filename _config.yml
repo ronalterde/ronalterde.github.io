@@ -17,7 +17,7 @@ title: Steffen Ronalter
 email: ronalterde (at) gmail.com
 description: "On Embedded Software, Engineering, Linux – and Coffee."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://steffen.ronalter.de" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://steffen.ronalter.de" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ronalterde
 github_username:  ronalterde
 google_analytics: UA-112087068-1
