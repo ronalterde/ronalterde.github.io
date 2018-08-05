@@ -49,4 +49,4 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/default-image.png
+      image: /logo.png # Default logo, overridable in the front matter
