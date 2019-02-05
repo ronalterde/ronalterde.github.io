@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Git: Compare feature branches to master (part 1/2)"
+title: "Git: Compare feature branches to master (Part 1/2)"
 ---
 
 This article shows how to display changes in Git feature branches that are not yet merged into master.
