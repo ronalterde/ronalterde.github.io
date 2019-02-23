@@ -5,36 +5,26 @@ layout: default
 <div class="home">
 
 	<h1 class="page-heading">{{ site.title | escape }}</h1>
-	{{ site.description | escape }}
+	<!-- {{ site.description | escape }} -->
 	<br />
 	<br />
   
   {{ content }}
+	<h1>New Blog!</h1>
+	Follow me to my new blog on Embedded Programming: <a href="https://deardevices.com">DearDevices.com</a>!
+	<a href="https://deardevices.com"><img src="{{ "/assets/deardevices.png" | absolute_url }}"></a>	
+
+	<h1>Blog Articles remaining here:</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
       <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta">2019-01-02</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <a class="post-link" href="{{ "/2017/10/29/pulling-a-decent-single-espresso-shot-from-the-gaggia-classic" | absolute_url }}">Pulling a decent single Espresso shot from the Gaggia Classic</a>
         </h2>
 		{{ post.excerpt }}
-
-		{% comment %}
-		Reading time; from https://carlosbecker.com/posts/jekyll-reading-time-without-plugins/
-		{% endcomment %}
-
-		{% assign post_words = post.content | number_of_words %}
-		(Reading time: 
-		{% if words < 270 %}
-		  1 minute)
-		{% else %}
-		  {{ post_words | divided_by:135 }} minutes)
-		{% endif %}
       </li>
-    {% endfor %}
   </ul>
 
   <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
