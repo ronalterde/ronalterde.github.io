@@ -1,5 +1,0 @@
-digraph graphname {
-	bgcolor="transparent";
-	c -> b;
-	b -> a;
-}
